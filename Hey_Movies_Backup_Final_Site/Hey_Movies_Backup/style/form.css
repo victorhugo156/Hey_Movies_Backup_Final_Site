@@ -1,0 +1,14 @@
+:root{
+   --body-bg: #0E0F24;
+   --body-bg-light: #e3e3e3;
+   --menu-bg: #0B0C1D;
+   --text-light: white;
+   --text-dark: #AEAEAE;
+   --actions: #D04135;
+}
+
+
+.signup{
+   font-size: 2rem;
+   color: white;
+}

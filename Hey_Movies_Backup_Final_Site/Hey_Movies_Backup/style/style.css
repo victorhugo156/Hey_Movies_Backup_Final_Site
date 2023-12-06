@@ -1,0 +1,59 @@
+:root{
+   --body-bg: #0E0F24;
+   --body-bg-light: #e3e3e3;
+   --menu-bg: #0B0C1D;
+   --text-light: white;
+   --text-dark: #AEAEAE;
+   --actions: #D04135;
+}
+
+body{
+   background-color: var(--body-bg-light);
+}
+
+.body{
+   background-color: var(--body-bg-light);
+
+   font-family: 'Montserrat', sans-serif;
+}
+
+.my-nav{
+   background-color: white;
+}
+
+.logo{
+   color: white;
+
+   font-size: 2rem;
+
+   text-decoration: none;
+}
+
+.nav-item a{
+   font-size: 1.3rem;
+   color: var(--body-bg);
+}
+
+.nav-item .actived:hover{
+   background-color: var(--actions);
+
+   color: white;
+}
+
+.nav-item a:hover{
+   color: white;
+   background-color: var(--actions);
+}
+
+.bullet{
+   width: 5px;
+   height: 10px;
+
+   background-color: var(--actions);
+}
+
+.title{
+   font-size: 2rem;
+   color: var(--body-bg);
+   font-weight: bold;
+}
